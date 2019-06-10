@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+}
+.navbar{
+    width: 100%;
+}
+
+#logo {
+    width: 10%;
+}
+
+#hamburguer {
+    margin-left: 1%;
+}
+
+h1 {
+    
+    margin-left: 0%;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+h2 {
+    margin-top: 0.4%;
+    margin-right:-10%;
+    font-size: 100%;
+}
+
+#barra {
+    background: linear-gradient(to right, #52c234, #061700);
+}
+
+.dropdown-item {
+    font-size: 100%;
+    
+}
+
+.navbar-nav .nav-link {
+  
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+.form-control {
+    width: 60%;
+}
