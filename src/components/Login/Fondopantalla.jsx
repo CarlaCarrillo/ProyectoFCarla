@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 //Aqui importamos nuestra imagen
-import logo from './logo2.png';
+import imgfondo from './imgfondo.jpg';
 
 
-class Logo extends Component {
+class Fondopantalla extends Component {
   render() {
     return (
-      <div className="logo">
+      <div className="imgfondo">
         {/*Y en la etiqueta img simplemente la mostramos*/}
-        <img id="logo" src={logo} />
+        <img id="imgfondo" src={imgfondo} />
       </div>
     );
   }
 }
 
-export default Logo;
+export default Fondopantalla;

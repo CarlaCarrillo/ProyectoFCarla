@@ -1,11 +1,13 @@
 import React from 'react';
 
 //Componentes
+import {BrowserRouter,Route} from 'react-router-dom'
+
+
+
 import Login from './Login/Login';
 import Header from './Header/Header';
 import List from './List/List';
-import Page1 from '/Page1/Page1';
-
 
 
 function App() {
@@ -16,12 +18,11 @@ function App() {
     {id: '4', name: 'Name 4', description: 'Description 4', value: 5},
   ];
   return (
-    <div className="App">
-      <Header />
-      <Login  />
-      <List items={items} />
-      <Page1 />
-    </div>
+    <BrowserRouter>
+    <Route component={Header}/>
+    <Route exact path="/" component={Login}/>
+    <Route  path="/list" component={List}/>
+    </BrowserRouter>
   );
 }
 

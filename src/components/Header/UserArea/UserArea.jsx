@@ -1,9 +1,10 @@
 import React from 'react';
+import withRouter from 'react-router-dom/withRouter'
 
-const UserArea = () => (
-    <div className="UserArea">
-        
-    </div>
+const UserArea = ({location}) => (
+   <>
+   {location.pathname === '/' ? 'Logged Out':"Logged In"}
+   </>
 );
 
-export default UserArea;
+export default withRouter(UserArea);

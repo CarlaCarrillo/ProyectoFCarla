@@ -1,19 +1,25 @@
 import React, {Component} from 'react';
-import Item from './Item/Item'
+import {getData} from '../utils/api';
+import Item from './Item/Item';
 
 class List extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            items:[],
             lastClicked: null,
         }
         this.changeLastClicked = this.changeLastClicked.bind(this);
     }
-    changeLastClicked(id) {
-        this.setState({lastClicked:id});
+   componentDidMount() {
+       getData('items').then((items) => this.setState({items}));
+   }
+   changeLastClicked(id) {
+       this.setState({lastClicked:id});
     }
+    
     renderItems(){
-        return this.props.items.map((item,i) => (
+        return this.state.items.map((item,i) => (
           <Item
           key={`item-${i}`}
           lastClicked={this.state.lastClicked}

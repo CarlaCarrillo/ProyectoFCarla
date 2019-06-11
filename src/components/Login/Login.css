@@ -1,0 +1,39 @@
+#imgfondo {
+    width: 919px;
+    height: 551px;
+    padding: 18px;
+    margin: 10px 0 20px -150px !important;   
+}
+.modal-content {
+    width: 483px;
+    height: 515px;
+    padding: 20px;
+    margin: 10px 0 20px -7px !important;
+    background: linear-gradient(to left, #000000, #434343);
+}
+
+#formBasicPassword {
+    width: 400px;
+    height: 40px;
+}
+#formUsername.form-control {
+    width: 400px;
+    height: 40px;
+}
+.modal-title.h4 {
+    margin-top: 0.4%;
+    margin-right:-10%;
+    font-size: 200%;
+    color:white;
+}
+.form-label {
+    margin-top: 0.4%;
+    margin-right:-10%;
+    font-size: 120%;
+    color:white;
+}
+.btn.btn-primary {
+    background-color: black;
+    border-color: darkgreen;
+    color: green;
+}
