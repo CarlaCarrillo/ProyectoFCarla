@@ -1,3 +1,5 @@
+
+
 .header {
     display: flex;
 }
@@ -5,10 +7,7 @@
     width: 100%;
 }
 
-#logo {
-    width: 10%;
-    margin-left: 5%;
-}
+
 
 #hamburguer {
     margin-left: 1%;
@@ -19,7 +18,7 @@ h1 {
     margin-top: 0.5%;
     font-size: 150%;
     color: aliceblue;
-    margin-left: 20%;
+    margin-right: 50%;
     
 }
 
@@ -77,6 +76,24 @@ h2 {
 }
 /**cajitas de submenu**/
 .dropdown-item {
-    background-color:rgb(253, 252, 252);
-    
+    background-color:rgb(253, 252, 252); 
+}
+/**contenedor de nombre y logo**/
+#contNameLogo {
+    margin-top: 0%;
+    margin-right:40%; 
+}
+/**contenedor de barrita de busqueda**/
+h1 {  
+    margin-top: 1%;
+    font-size: 150%;
+    color: aliceblue;
+    margin-right: 0%;
+}
+#logo {
+    width: 10%;
+    margin-left: -17%;
+}
+#contBarSearch {
+    margin-left: 0%;
 }

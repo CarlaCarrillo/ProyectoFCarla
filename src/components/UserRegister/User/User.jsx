@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 // Components
-import UpdateItem from '../UpdateItem/UpdateItem';
+import UpdateRegister from '../UpdateRegister/UpdateRegister';
 import { deleteData } from '../../utils/api'
-class Item extends Component {
+class User extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,9 +12,9 @@ class Item extends Component {
     }
 
     this.increaseClick = this.increaseClick.bind(this);
-    this.editItem = this.editItem.bind(this);
+    this.editUser = this.editUser.bind(this);
     this.closeModal = this.closeModal.bind(this);
-    this.removeItem = this.removeItem.bind(this);
+    this.removeUser = this.removeUser.bind(this);
   }
 
   increaseClick() {
@@ -22,7 +22,7 @@ class Item extends Component {
     this.props.changeLastClicked(this.props.id);
   }
 
-  editItem() {
+  editUser() {
     this.setState({editing: true});
   }
 
@@ -31,26 +31,28 @@ class Item extends Component {
     this.props.updateList();
   }
 
-  removeItem(){
-      deleteData('items',this.props.id).then(this.props.updateList).catch(console.log);
+  removeUser(){
+      deleteData('user',this.props.id).then(this.props.updateList).catch(console.log);
   }
 
   render() {
-    const {id, name, description, value} = this.props;
+    const {id, name, lastname, email,username, password} = this.props;
     return (
       <tr onClick={this.increaseClick}>
         <td>{id}</td>
         <td>{name}</td>
-        <td>{description}</td>
-        <td>{value}</td>
+        <td>{lastname}</td>
+        <td>{email}</td>
+        <td>{username}</td>
+        <td>{password}</td>
         <td>{this.state.clicked}</td>
         <td>{this.props.id === this.props.lastClicked && 'Last Clicked'}</td>
-        <td onClick={this.editItem}>Edit</td>
-        <td onClick={this.removeItem}>Remove</td>
-        <UpdateItem show={this.state.editing} hide={this.closeModal} {...this.props} />
+        <td onClick={this.editUser}>Edit</td>
+        <td onClick={this.removeUser}>Remove</td>
+        <UpdateRegister show={this.state.editing} hide={this.closeModal} {...this.props} />
       </tr>
     );
   }
 }
 
-export default Item;
+export default User;

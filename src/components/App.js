@@ -5,9 +5,12 @@ import {BrowserRouter,Route} from 'react-router-dom'
 
 
 
+
 import Login from './Login/Login';
 import Header from './Header/Header';
 import List from './List/List';
+import Footer from './Footer/Footer'
+import UserRegister from './UserRegister/UserRegister';
 
 
 function App() {
@@ -20,9 +23,12 @@ function App() {
   return (
     <BrowserRouter>
     <Route component={Header}/>
+    <Route component={Footer}/>
     <Route exact path="/" component={Login}/>
     <Route  path="/list" component={List}/>
+    <Route  path="/user" component={UserRegister}/>
     </BrowserRouter>
+    
   );
 }
 

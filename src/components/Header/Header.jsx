@@ -11,26 +11,29 @@ import FormControl from 'react-bootstrap/FormControl';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Hamburguer from './Hamburguer/Hamburguer';
-
+import Modal from 'react-bootstrap/Modal';
 
 import './Header.css';
+import Container from 'react-bootstrap/Container';
 
 const Header = () => ( 
     <div className="header">
     <Hamburguer/>
-    
+      
     <Navbar id="barra" bg="" expand="lg"> 
-    <UserArea/>
-    <h1 className="">Plantae.com</h1>
+      <UserArea/>
+     
+      <Container id="contBarSearch">
+  
+      <h1 className="">Plantae.com</h1>
       <Logo/>
-      
-      
       <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-success">Search</Button>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-success">Search</Button>
       </Form>
-</Navbar>
-</div>
+      </Container>
+    </Navbar>
+    </div>
 );
 // <UserArea loggedIn/>
 export default Header;

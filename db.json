@@ -31,14 +31,39 @@
       "email": "userFour@mail.com",
       "username": "user-four",
       "password": "password"
+    },
+    {
+      "name": "carla",
+      "lastname": "carrillo",
+      "email": "@email.com",
+      "username": "Carla16",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "marisol",
+      "lastname": "morales",
+      "email": "@mail.com",
+      "username": "mmmm",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "carla",
+      "lastname": "ddd",
+      "email": "@ddd",
+      "username": "ddd",
+      "password": "ddd",
+      "id": 7
     }
   ],
   "items": [
     {
       "id": 1,
-      "name": "Item 1",
+      "name": "Item MODIFI",
       "description": "This is item One",
-      "value": 1
+      "value": "3",
+      "Description": "This is item One"
     },
     {
       "id": 2,
@@ -51,12 +76,6 @@
       "name": "Item 1",
       "description": "This is item Three",
       "value": 3
-    },
-    {
-      "id": 4,
-      "name": "Item 1",
-      "description": "This is item Four",
-      "value": 4
     }
   ]
 }
