@@ -5,7 +5,9 @@
     bottom: 0;
     width: 100%;
     height: 40px;
-    color: white;
+    color: rgba(255, 255, 255, 0.698);
+    text-align: center;
+    
  }
 
  #twitter {

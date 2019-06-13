@@ -12,13 +12,13 @@ class Hamburguer extends React.Component {
     return (
       <Menu>
         <a id="home" className="menu-item" href="/">HOME</a>
-        <a id="principal" className="menu-item" href="/tienda">TIENDA</a>
-              <a id="submenu" className="menu-item" href="/">Plantas</a>
+        <a id="principal" className="menu-item">TIENDA</a>
+              <a id="submenu" className="menu-item" href="/plantas">Plantas</a>
               <a id="submenu" className="menu-item" href="/">Mesas de cultivo</a>
               <a id="submenu" className="menu-item" href="/">Semillas</a>
               <a id="submenu" className="menu-item" href="/">Herramientas</a>
-        <a id="principal" className="menu-item" href="/regalos">REGALOS</a>
-              <a id="submenu" className="menu-item" href="/">Kit mi primer huerto</a>
+        <a id="principal" className="menu-item">REGALOS</a>
+              <a id="submenu" className="menu-item" href="/regalos">Kit mi primer huerto</a>
               <a id="submenu" className="menu-item" href="/">Terrarios</a>
               <a id="submenu" className="menu-item" href="/">Arreglos Macetas</a>
         <a id="principal" className="menu-item" href="/sucursales">SUCURSALES</a>

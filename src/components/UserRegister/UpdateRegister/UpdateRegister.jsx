@@ -6,9 +6,9 @@ import { patchData } from '../../utils/api';
 // Components
 import Modal from 'react-bootstrap/Modal';
 import Alert from 'react-bootstrap/Alert';
-import ItemForm from '../RegisterForm/RegisterForm';
+import RegisterForm from '../RegisterForm/RegisterForm';
 
-class UpdateItem extends Component {
+class UpdateRegister extends Component {
   constructor(props) {
     super(props);
 
@@ -25,20 +25,20 @@ class UpdateItem extends Component {
   }
 
   update(data) {
-    patchData('items', this.props.id, data).then(this.props.hide).catch(this.showError);
+    patchData('users', this.props.id, data).then(this.props.hide).catch(this.showError);
   }
 
   render() {
-    const {name, description, value} = this.props;
+    const {name, lastname, email, username, password} = this.props;
     const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
     return (
       <Modal show={this.props.show} onHide={this.props.hide}>
         <Modal.Header closeButton>
-          <Modal.Title>Edit Item</Modal.Title>
+          <Modal.Title>Edit User</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <ItemForm submit={this.update} data={{name, description, value}} />
+          <RegisterForm submit={this.update} data={{name, lastname, email, username, password}} />
         </Modal.Body>
         {alert}
       </Modal>
@@ -46,4 +46,4 @@ class UpdateItem extends Component {
   }
 }
 
-export default UpdateItem;
+export default UpdateRegister;

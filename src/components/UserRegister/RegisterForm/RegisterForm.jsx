@@ -6,11 +6,11 @@ import React, {Component} from 'react';
 //Components
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
 import Alert from 'react-bootstrap/Alert';
+import Modal from 'react-bootstrap/Modal';
 
 
-class ItemForm extends Component {
+class RegisterForm extends Component {
     constructor(props) {
         super(props);
         
@@ -48,6 +48,7 @@ class ItemForm extends Component {
     }
 
     render() {
+        const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
         return (
             
                     <Form>
@@ -90,10 +91,12 @@ class ItemForm extends Component {
 
                 <Button variant="primary" onClick={()=>this.props.submit({...this.state})}>Save</Button>
                 </Form.Group>
+                {alert}
                 </Form>
+               
                        
         );
     }
 
 }
-export default ItemForm;
+export default RegisterForm;

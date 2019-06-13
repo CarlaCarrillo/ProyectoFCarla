@@ -15,7 +15,7 @@ const Footer = () => (
         
         <footer id="footer">
      
-        <p>Your website content here.</p>
+        <p>Última actualización: Junio 2019</p>
         
         </footer>
         

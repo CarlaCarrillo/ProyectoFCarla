@@ -27,6 +27,8 @@ class CreateRegister extends Component {
     this.updateUsername = this.updateUsername.bind(this);
     this.updatePassword = this.updatePassword.bind(this);
     this.create = this.create.bind(this);
+    this.showError = this.showError.bind(this);
+    
     }
     updateName({target}) {
         this.setState({name: target.value});
@@ -48,13 +50,16 @@ class CreateRegister extends Component {
 
     showError() {
         this.setState({error:true});
+   
     }
 
     create(data) {
         postData('users', data).then(this.props.hide).catch(this.showError);
     }
+
     render() {
   
+        
         const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
         return (
             <Modal show={this.props.show} onHide={this.props.hide}>
@@ -63,6 +68,7 @@ class CreateRegister extends Component {
                 </Modal.Header>
 
                 <Modal.Body>
+                    
                     <RegisterForm submit={this.create} data={{}}/>
                 </Modal.Body>
                 {alert}

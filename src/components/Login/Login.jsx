@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as Yup from 'yup';
 import { Redirect } from 'react-router-dom/';
 
 import Form from 'react-bootstrap/Form';
@@ -22,6 +23,9 @@ class Login extends Component {
       password: '',
       loginError: false,
       loggedIn: false,
+      usernameValid: true,
+      passwordValid:true,
+
     }
 
     this.updateUsername = this.updateUsername.bind(this);
@@ -49,7 +53,15 @@ class Login extends Component {
   }
 
   logIn() {
-    getDataWithQuery(({...this.state}), 'users').then(this.checkUser);
+    const usernameValidation =Yup.string().required().isValid(this.state.username)
+    const passwordValidation =Yup.string().required().isValid(this.state.password)
+    Promise.all([usernameValidation, passwordValidation])
+    .then(([usernameValid, passwordValid]) => {
+      this.setState({usernameValid,passwordValid});
+      if(usernameValid && passwordValid) {
+        getDataWithQuery('users', {...this.state}).then(this.checkUser);
+    }
+  });
   }
 
   render() {
@@ -63,11 +75,13 @@ class Login extends Component {
     return (
 
       <Container>
+        
         <Row>
-          <Col sm={8}>
+          <Col xs={12} md={8} >
           <Fondopantalla/>
+          
           </Col>
-          <Col sm={4}>
+          <Col xs={6} md={4}>
             <Modal.Dialog>
             <Modal.Header>
               <Modal.Title>Registro</Modal.Title>
@@ -80,6 +94,7 @@ class Login extends Component {
                   placeholder="Usuario o correo"
                   value={this.state.username}
                   onChange={this.updateUsername}
+                  isInvalid={!this.state.usernameValid}
                 />
               </Form.Group>
 
@@ -87,15 +102,17 @@ class Login extends Component {
                 <Form.Label>Contraseña</Form.Label>
                 <Form.Control
                   type="password"
-                  placeholder="Contraseña"
+                  placeholder="Password"
                   value={this.state.password}
                   onChange={this.updatePassword}
+                  isInvalid={!this.state.passwordValid}
                 />
               </Form.Group>
+              <h3>¿Aún no tienes cuenta? pulsa el botón de "Registro".</h3>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="primary" type="button" onClick={this.logIn}>Log In</Button>
-              <Button variant="primary" type="button" onClick={this.logIn}>Registro</Button>
+              <Button variant="primary" type="button" href="/user">Registro</Button>
             </Modal.Footer>
             {alert}
             </Modal.Dialog>

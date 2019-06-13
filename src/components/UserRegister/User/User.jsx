@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 // Components
 import UpdateRegister from '../UpdateRegister/UpdateRegister';
 import { deleteData } from '../../utils/api'
+
+
 class User extends Component {
   constructor(props) {
     super(props);
@@ -28,11 +30,11 @@ class User extends Component {
 
   closeModal() {
     this.setState({editing: false});
-    this.props.updateList();
+    this.props.updateUserRegister();
   }
 
   removeUser(){
-      deleteData('user',this.props.id).then(this.props.updateList).catch(console.log);
+      deleteData('users',this.props.id).then(this.props.updateUserRegister).catch(console.log);
   }
 
   render() {

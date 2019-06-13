@@ -33,28 +33,12 @@
       "password": "password"
     },
     {
-      "name": "carla",
-      "lastname": "carrillo",
-      "email": "@email.com",
-      "username": "Carla16",
-      "password": "123456",
+      "name": "User",
+      "lastname": "Five",
+      "email": "userFive@mail.com",
+      "username": "user-five",
+      "password": "password",
       "id": 5
-    },
-    {
-      "name": "marisol",
-      "lastname": "morales",
-      "email": "@mail.com",
-      "username": "mmmm",
-      "password": "1234",
-      "id": 6
-    },
-    {
-      "name": "carla",
-      "lastname": "ddd",
-      "email": "@ddd",
-      "username": "ddd",
-      "password": "ddd",
-      "id": 7
     }
   ],
   "items": [
@@ -76,6 +60,12 @@
       "name": "Item 1",
       "description": "This is item Three",
       "value": 3
+    },
+    {
+      "name": "111",
+      "description": "111",
+      "value": "1",
+      "id": 4
     }
   ]
 }

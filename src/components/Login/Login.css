@@ -1,3 +1,29 @@
+h3 {
+    font-size: 102%;
+    color: rgb(33, 138, 1);
+}
+
+/**Formato a texto de imagen de fono**/
+#titulo {
+    color: white;
+    font-size: 180%;
+    font-family: 'Pacifico';
+    margin-left: -22%;
+    }
+
+
+#contenido {
+    margin-top: 8%;
+    margin-left: -78%;
+    width: 203%;
+    font-size: 30px;
+    font-family: 'Bad Script';
+    color: white;
+    text-align: center;
+ 
+    
+}
+
 #imgfondo {
     width: 919px;
     height: 551px;
@@ -5,7 +31,7 @@
     margin: 10px 0 20px -150px !important;   
 }
 .modal-content {
-    width: 483px;
+    width: 484px;
     height: 515px;
     padding: 20px;
     margin: 10px 0 20px -7px !important;
@@ -37,3 +63,29 @@
     border-color: darkgreen;
     color: green;
 }
+
+/**formato a texto de centro de pantalla**/
+#contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+ 
+#texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+}
+
+
+
+

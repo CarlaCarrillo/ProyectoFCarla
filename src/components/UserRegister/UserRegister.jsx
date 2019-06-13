@@ -3,6 +3,7 @@ import {getData} from '../utils/api';
 import User from './User/User';
 import CreateRegister from './CreateRegister/CreateRegister'
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 class UserRegister extends Component {
     constructor(props) {
@@ -33,7 +34,7 @@ class UserRegister extends Component {
 
     closeModal() {
         this.setState({creating:false});
-        this.updateRegister();
+        this.updateUserRegister();
     }
     
     renderUsers(){
@@ -42,16 +43,16 @@ class UserRegister extends Component {
           key={`user-${i}`}
           lastClicked={this.state.lastClicked}
           changeLastClicked={this.changeLastClicked}
-          updateList={this.updateUserRegister}
+          updateUserRegister={this.updateUserRegister}
           {...user} 
           /> 
     ));
 }
     render() {
         return (
+            
             <>
             <CreateRegister show={this.state.creating} hide={this.closeModal}/>
-            <Button variant="primary" onClick={this.createRegister}>Add new Register</Button> 
             <table className="UserRegister">
                 <thead>
                     <tr>
@@ -67,7 +68,10 @@ class UserRegister extends Component {
                     {this.renderUsers()}
                 </tbody>
             </table>
+
+            <Button variant="primary" onClick={this.createRegister}>Add new User</Button>
             </>
+           
         );
     }
 }
