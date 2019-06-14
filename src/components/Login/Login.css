@@ -3,11 +3,11 @@ h3 {
     color: rgb(33, 138, 1);
 }
 
-/**Formato a texto de imagen de fono**/
+/**Formato a texto de imagen de fondo**/
 #titulo {
     color: white;
     font-size: 180%;
-    font-family: 'Pacifico';
+    font-family: 'Annie Use Your Telescope', cursive;
     margin-left: -22%;
     }
 
