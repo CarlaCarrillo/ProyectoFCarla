@@ -26,7 +26,7 @@ render () {
             <Card id="carta" style={{ width: '14rem' }}>
             <Card.Img variant="top" src={this.props.plantas.imagen} alt="242x200" />
                 <Card.Body>
-                    <Card.Title>Planta 8</Card.Title>
+                    <Card.Title><h5>{this.props.plantas.name}</h5></Card.Title>
                     <Card.Text>
                 <h5>{this.props.plantas.description}</h5>
                 <h2>$ {this.props.plantas.costo}</h2>

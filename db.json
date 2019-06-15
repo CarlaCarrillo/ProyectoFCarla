@@ -68,6 +68,8 @@
       "id": 4
     }
   ],
+
+
   "plantas": [
     {
       "id": 1,
@@ -84,6 +86,10 @@
       "imagen": "../Gallery/Planta3.jpg"
     }
   ],
+
+
+
+  
   "carrito": [
     {
       "plantas": {

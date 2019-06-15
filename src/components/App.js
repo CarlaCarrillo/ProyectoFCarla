@@ -12,7 +12,7 @@ import List from './List/List';
 
 import UserRegister from './UserRegister/UserRegister';
 import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
-import ShopCar from './ShopCar/ShopCar';
+import ShopCar from './TiendaPlantas/ShopCar/ShopCar';
 
 
 function App() {
