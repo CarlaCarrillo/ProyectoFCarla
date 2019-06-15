@@ -67,5 +67,73 @@
       "value": "1",
       "id": 4
     }
+  ],
+  "plantas": [
+    {
+      "id": 1,
+      "name": "Item MODIFI",
+      "description": "This is item One",
+      "costo": "3",
+      "imagen": "../Gallery/Planta2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Item MODIFI",
+      "description": "This is item two",
+      "costo": "3",
+      "imagen": "../Gallery/Planta3.jpg"
+    }
+  ],
+  "carrito": [
+    {
+      "plantas": {
+        "id": 1,
+        "name": "Item MODIFI",
+        "description": "This is item One",
+        "costo": "3",
+        "imagen": "../Gallery/Planta2.jpg"
+      },
+      "id": 1
+    },
+    {
+      "plantas": {
+        "id": 1,
+        "name": "Item MODIFI",
+        "description": "This is item One",
+        "costo": "3",
+        "imagen": "../Gallery/Planta2.jpg"
+      },
+      "id": 2
+    },
+    {
+      "plantas": {
+        "id": 1,
+        "name": "Item MODIFI",
+        "description": "This is item One",
+        "costo": "3",
+        "imagen": "../Gallery/Planta2.jpg"
+      },
+      "id": 3
+    },
+    {
+      "plantas": {
+        "id": 1,
+        "name": "Item MODIFI",
+        "description": "This is item One",
+        "costo": "3",
+        "imagen": "../Gallery/Planta2.jpg"
+      },
+      "id": 4
+    },
+    {
+      "plantas": {
+        "id": 2,
+        "name": "Item MODIFI",
+        "description": "This is item two",
+        "costo": "3",
+        "imagen": "../Gallery/Planta3.jpg"
+      },
+      "id": 5
+    }
   ]
 }
