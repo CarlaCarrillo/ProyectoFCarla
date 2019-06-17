@@ -12,7 +12,7 @@ import List from './List/List';
 
 import UserRegister from './UserRegister/UserRegister';
 import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
-import ShopCar from './TiendaPlantas/ShopCar/ShopCar';
+//import ShopCar from './TiendaPlantas/ShopCar/ShopCar';
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
     <Route  path="/list" component={List}/>
     <Route  path="/user" component={UserRegister}/>
     <Route  path="/plantas" component={TiendaPlantas}/>
-    <Route  path="/carrito" component={ShopCar}/>
+    
     </BrowserRouter>
     
   );
