@@ -12,7 +12,8 @@ import List from './List/List';
 
 import UserRegister from './UserRegister/UserRegister';
 import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
-//import ShopCar from './TiendaPlantas/ShopCar/ShopCar';
+import ListCar from './ListCar/ListCar';
+
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
     <Route  path="/list" component={List}/>
     <Route  path="/user" component={UserRegister}/>
     <Route  path="/plantas" component={TiendaPlantas}/>
+    <Route  path="/carrito" component={ListCar}/>
+    
     
     </BrowserRouter>
     

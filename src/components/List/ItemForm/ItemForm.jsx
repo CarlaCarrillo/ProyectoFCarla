@@ -6,8 +6,7 @@ import React, {Component} from 'react';
 //Components
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
-import Alert from 'react-bootstrap/Alert';
+
 
 
 class ItemForm extends Component {
@@ -40,31 +39,30 @@ class ItemForm extends Component {
     render() {
         return (
             
-                    <Form>
-                        <Form.Group>
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control
-                            type="text"
-                            placeholder="Item Name"
-                            value={this.state.name}
-                            onChange={this.updateName}
-                        />
-
-                <Form.Label>Description</Form.Label>
-                <Form.Control
-                as="textarea"
-                rows ="3"
-                value={this.state.description}
-                onChange={this.updateDescription}
-                />
-                <Form.Label>Value</Form.Label>
-                <Form.Control
-                type="number"
-                min="0"
-                placeholder="Value"
-                Value={this.state.value}
-                onChange={this.updateValue}
-                />
+        <Form>
+                <Form.Group>
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control
+                    type="text"
+                    placeholder="Item Name"
+                    value={this.state.name}
+                    onChange={this.updateName}
+                    />
+                    <Form.Label>Description</Form.Label>
+                    <Form.Control
+                    as="textarea"
+                    rows ="3"
+                    value={this.state.description}
+                    onChange={this.updateDescription}
+                    />
+                    <Form.Label>Value</Form.Label>
+                    <Form.Control
+                    type="number"
+                    min="0"
+                    placeholder="Value"
+                    Value={this.state.value}
+                    onChange={this.updateValue}
+                    />
                 <Button variant="primary" onClick={()=>this.props.submit({...this.state})}>Save</Button>
                 </Form.Group>
                 </Form>
