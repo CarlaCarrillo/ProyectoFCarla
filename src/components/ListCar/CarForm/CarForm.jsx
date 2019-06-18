@@ -6,6 +6,7 @@ import React, {Component} from 'react';
 //Components
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 
 
@@ -17,7 +18,7 @@ class CarForm extends Component {
             name:props.data.name || '',
             description:props.data.description || '',
             costo: props.data.costo|| 0,
-            imagen:props.data.imagen
+            imagen:props.data.imagen || '',
         };
 
     this.updateName = this.updateName.bind(this);

@@ -1,33 +1,33 @@
 import React, {Component} from 'react';
 import {getData} from '../utils/api';
-//import Item from './Item/Item';
-//import CreateItem from './CreateItem/CreateItem'
+import Planta from './Planta/Planta';
+import Cart from '../TiendaPlantas/Cart/Cart';
 import Button from 'react-bootstrap/Button';
 
-class List extends Component {
+class ListCar extends Component {
     constructor(props) {
         super(props);
         this.state = {
             plantas:[],
             lastClicked: null,
         }
-        this.updateList = this.updateList.bind(this);
+        this.updateListCar = this.updateListCar.bind(this);
         this.changeLastClicked = this.changeLastClicked.bind(this);
-        this.createItem = this.createItem.bind(this);
+        this.Cart = this.Cart.bind(this);
         this.closeModal = this.closeModal.bind(this);
         }
 
    componentDidMount() {
-       this.updateList();
+       this.updateListCar();
    }
 
-   updateList() {
+   updateListCar() {
        getData('plantas').then((plantas) => this.setState({plantas}));
    }
    changeLastClicked(id) {
        this.setState({lastClicked:id});
     }
-    createItem() {
+    Cart() {
         this.setState({creating:true});
     }
 
@@ -36,34 +36,34 @@ class List extends Component {
         this.updateList();
     }
     
-    renderItems(){
-        return this.state.items.map((item,i) => (
-          <Item
-          key={`item-${i}`}
+    renderPlants(){
+        return this.state.plantas.map((planta,i) => (
+          <Planta
+          key={`planta-${i}`}
           lastClicked={this.state.lastClicked}
           changeLastClicked={this.changeLastClicked}
           updateList={this.updateList}
-          {...item} 
+          {...planta} 
           /> 
     ));
 }
     render() {
         return (
             <>
-            <CreateItem show={this.state.creating} hide={this.closeModal}/>
-            <Button variant="primary" onClick={this.createItem}>Add new Item</Button> 
+            <Cart show={this.state.creating} hide={this.closeModal}/>
+            <Button variant="primary" onClick={this.cart}>Add new product</Button> 
             <table className="List">
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Name</th>
                         <th>Description</th>
-                        <th>Value</th>
+                        <th>Costo</th>
                         <th>Clicked</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {this.renderItems()}
+                    {this.renderPlants()}
                 </tbody>
             </table>
             </>
@@ -72,4 +72,4 @@ class List extends Component {
 }
 
 
-export default List;
+export default ListCar;
