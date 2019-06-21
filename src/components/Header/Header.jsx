@@ -27,7 +27,7 @@ const Header = () => (
       <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
-          <input id="imgcarro" type="image" src={CartIcon}  onClick="/"></input>
+          <input id="imgcarro" type="image" src={CartIcon}  Link to="/carrito"></input>
       </Form>
      
        
