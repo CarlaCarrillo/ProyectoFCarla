@@ -96,6 +96,20 @@
       "description": "This is item 4",
       "costo": "12",
       "imagen": "../Gallery/Planta4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Planta de tomate",
+      "description": "This is item 5",
+      "costo": "12",
+      "imagen": "../Gallery/Planta5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Planta de espinaca",
+      "description": "This is item 6",
+      "costo": "12",
+      "imagen": "../Gallery/Planta6.jpg"
     }
   ],
   "carrito": [
@@ -126,6 +140,20 @@
       "description": "This is item One",
       "costo": "3",
       "imagen": "../Gallery/Planta2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Planta de tomate",
+      "description": "This is item 5",
+      "costo": "12",
+      "imagen": "../Gallery/Planta5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Planta de espinaca",
+      "description": "This is item 6",
+      "costo": "12",
+      "imagen": "../Gallery/Planta6.jpg"
     }
   ]
 }
