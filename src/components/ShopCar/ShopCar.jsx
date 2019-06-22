@@ -3,7 +3,7 @@ import { getData } from '../utils/api';
 import Cart from '../TiendaPlantas/Cart/Cart'
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import { deleteData } from '../utils/api'
+
 import Button from 'react-bootstrap/Button';
 
 
