@@ -60,12 +60,6 @@
       "name": "Item 1",
       "description": "This is item Three",
       "value": 3
-    },
-    {
-      "name": "111",
-      "description": "111",
-      "value": "1",
-      "id": 4
     }
   ],
   "plantas": [
@@ -96,23 +90,23 @@
       "description": "This is item 4",
       "costo": "12",
       "imagen": "../Gallery/Planta4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Planta de tomate",
+      "description": "This is item 5",
+      "costo": "12",
+      "imagen": "../Gallery/Planta5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Planta de espinaca",
+      "description": "This is item 6",
+      "costo": "12",
+      "imagen": "../Gallery/Planta6.jpg"
     }
   ],
   "carrito": [
-    {
-      "id": 3,
-      "name": "Pata de elefante",
-      "description": "This is item 4",
-      "costo": "5",
-      "imagen": "../Gallery/Planta1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Oregano",
-      "description": "This is item two",
-      "costo": "3",
-      "imagen": "../Gallery/Planta3.jpg"
-    },
     {
       "id": 4,
       "name": "Planta de espinaca",
@@ -126,6 +120,13 @@
       "description": "This is item One",
       "costo": "3",
       "imagen": "../Gallery/Planta2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Planta de tomate",
+      "description": "This is item 5",
+      "costo": "12",
+      "imagen": "../Gallery/Planta5.jpg"
     }
   ]
 }

@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Redirect } from 'react-router-dom'
 import Login from './Login/Login';
 import Header from './Header/Header';
 import List from './List/List';
+import Lista from './Lista/List';
 
 import UserRegister from './UserRegister/UserRegister';
 import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
@@ -20,6 +21,7 @@ const App = () => (
     <Route exact path="/user" component={UserRegister} />
     <Route path="/plantas" component={TiendaPlantas} />
     <Route path="/carrito" component={ShopCar} />
+    <Route path="/carro" component={Lista} />
    
   </BrowserRouter>
 )
