@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {getData} from '../utils/api';
 import Itemcart from './Item/Item';
+import Col from 'react-bootstrap/Col';
 
 import Button from 'react-bootstrap/Button';
 
@@ -9,10 +10,10 @@ class List extends Component {
         super(props);
         this.state = {
             carrito:[],
-            lastClicked: null,
+            
         }
         this.updateList = this.updateList.bind(this);
-        this.changeLastClicked = this.changeLastClicked.bind(this);
+        
        
         this.closeModal = this.closeModal.bind(this);
         }
@@ -24,9 +25,7 @@ class List extends Component {
    updateList() {
        getData('carrito').then((carrito) => this.setState({carrito}));
    }
-   changeLastClicked(id) {
-       this.setState({lastClicked:id});
-    }
+  
     
 
     closeModal() {
@@ -38,8 +37,6 @@ class List extends Component {
         return this.state.carrito.map((itemcart,i) => (
           <Itemcart
           key={`itemcart-${i}`}
-          lastClicked={this.state.lastClicked}
-          changeLastClicked={this.changeLastClicked}
           updateList={this.updateList}
           {...itemcart} 
           /> 
@@ -49,21 +46,15 @@ class List extends Component {
         return (
             <>
             
-            <table className="List">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Value</th>
-                        <th>Imagen</th>
-                        <th>Clicked</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <div className="List" >
+                <h6 style={{ color: 'black', textAlign: 'center' }}>
+                        Carrito de compras
+                    </h6><p/>
+                <row>
                     {this.renderCarrito()}
-                </tbody>
-            </table>
+                </row>
+            </div>
+            
             </>
         );
     }

@@ -1,0 +1,29 @@
+body {
+    background-color:#98F281;
+}
+
+
+h6 {
+    margin-top: 2%;
+    font-size: 150%;
+}
+
+.List {
+    align-self: center;
+    color: black;
+}
+
+/*Estilo tarjetas plantas de carrito*/
+#cartas {
+    float: left;
+    height: 96%;
+    text-align: center;
+    margin-left: 10%;
+    
+    
+}
+/*Estilo parte de abajo de las tarjetas*/
+.card-body {
+    ; 
+    color: black;
+}

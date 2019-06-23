@@ -4,9 +4,8 @@ import Cart from '../TiendaPlantas/Cart/Cart'
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import { deleteData } from '../utils/api'
-
-
 import Button from 'react-bootstrap/Button';
+
 
 
 class ShopCar extends React.Component {
@@ -37,7 +36,6 @@ class ShopCar extends React.Component {
                     </h1>
                     <Row>
                         {this.state.carrito.map(plantaCarrito => <Cart plantas={plantaCarrito} isViewingCart={true} />)}
-                    
                     </Row>
                 </Container>
             </div>
