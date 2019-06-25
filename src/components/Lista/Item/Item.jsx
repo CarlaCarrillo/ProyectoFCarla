@@ -49,31 +49,28 @@ class Item extends Component {
     return (
       
       <Row id='cartas'>
-<Col sm={4} md={4}>
-<Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>     
-<Card id="carta" style={{ width: '14rem' }}>
-<Card.Img variant="top" src={imagen} alt="242x200" />
-<Card.Body>
-  <Card.Title><h5>{name}</h5></Card.Title>
-  <Card.Text>
-    <h5>{description}</h5>
-    <h2>$ {costo}</h2>  
-  </Card.Text>
+        <Col sm={4} md={4}>
+        <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>     
+        <Card id="carta" style={{ width: '14rem' }}>
+        <Card.Img variant="top" src={imagen} alt="242x200" />
+        <Card.Body>
+        <Card.Title><h4>{name}</h4></Card.Title>
+        <Card.Text>
+          <h6>{description}</h6>
+          <h2>$ {costo} .00</h2>  
+        </Card.Text>
   
-  <tr onClick={this.increaseClick}>
-  <td><Button  variant="light" onClick={this.increaseClick}>Cantidad</Button></td>
-  <td>{this.state.clicked}</td>
-  </tr><p/>
+        <p className='botonCantidad' onClick={this.increaseClick}>
+        <Button  id='botonCantidad' variant="dark" onClick={this.increaseClick}>Cantidad</Button>
+        = {this.state.clicked}
+        </p><p/>
   
-  <Button variant="outline-dark" onClick={this.removeItem}>Remove</Button>
-</Card.Body>
-
-</Card>
-</Container>
-</Col> 
-</Row>
-
-
+        <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Cancelar</Button>
+        </Card.Body>
+        </Card>
+        </Container>
+        </Col> 
+        </Row>
     );
   }
 }

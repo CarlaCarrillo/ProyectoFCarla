@@ -1,11 +1,23 @@
 body {
-    background-color:#98F281;
+    background-color:YELLOWGREEN;
 }
 
+h2 {
+    margin-right: 2%;
+    color: black;
+}
 
+h4 {
+    font-size: 100%;
+    color: black;
+}
 h6 {
     margin-top: 2%;
-    font-size: 150%;
+    font-size: 100%;
+    color: black;
+}
+p {
+    color: white;
 }
 
 .List {
@@ -24,6 +36,36 @@ h6 {
 }
 /*Estilo parte de abajo de las tarjetas*/
 .card-body {
-    ; 
+    
     color: black;
+}
+/*Estilo botón Cantidad*/
+.botonCantidad {
+    text-align: center;
+    margin-left: 12%; 
+    background-color:OLIVEDRAB;
+    width: 77%;
+    height: 45px;
+    margin-top: 1px;
+    
+}
+
+#botonCantidad {
+        background-color: OLIVEDRAB;
+        border:OLIVEDRAB;
+        margin-right: 13%;
+        margin-top: 3%;
+    }
+
+#botonCantidad:hover {
+        color:black;
+    }
+
+/*Estilo botón Cancelar*/
+#botonRemove {
+    background-color:BLACK;
+    width: 78%;
+}
+#botonRemove:hover {
+    color:SLATEGRAY;
 }

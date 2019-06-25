@@ -20,7 +20,7 @@ const App = () => (
     <Route exact path="/user" component={UserRegister} />
     <Route path="/plantas" component={TiendaPlantas} />
     
-    <Route path="/carro" component={Lista} />
+    <Route path="/carrito" component={Lista} />
    
   </BrowserRouter>
 )

@@ -47,9 +47,9 @@ class List extends Component {
             <>
             
             <div className="List" >
-                <h6 style={{ color: 'black', textAlign: 'center' }}>
-                        Carrito de compras
-                    </h6><p/>
+                <h1 style={{ color: 'black', textAlign: 'center' }}>
+                        Carrito de compras: ¡Bienvenido!
+                    </h1><p/>
                 <row>
                     {this.renderCarrito()}
                 </row>

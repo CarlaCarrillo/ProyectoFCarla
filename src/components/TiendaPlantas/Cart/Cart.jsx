@@ -41,12 +41,12 @@ class Cart extends React.Component {
                 <Card id="carta" style={{ width: '14rem' }}>
                     <Card.Img variant="top" src={this.props.plantas.imagen} alt="242x200" />
                     <Card.Body>
-                        <Card.Title><h5>{this.props.plantas.name}</h5></Card.Title>
+                        <Card.Title><h4>{this.props.plantas.name}</h4></Card.Title>
                         <Card.Text>
-                            <h5>{this.props.plantas.description}</h5>
-                            <h2>$ {this.props.plantas.costo}</h2>
+                            <h6>{this.props.plantas.description}</h6>
+                            <h2>$ {this.props.plantas.costo} .00</h2>
                         </Card.Text>
-                        {this.props.isViewingCart === false && <Button variant="outline-success" onClick={() => this.create({ ...this.props })}>Agregar a carrito </Button>}
+                        {this.props.isViewingCart === false && <Button className="botonAgregar" variant="outline-success" onClick={() => this.create({ ...this.props })}>Agregar a carrito </Button>}
                         {this.props.isViewingCart === true && <Button variant="outline-danger" onClick={() => this.limpiarCarrito(this.props.plantas.id)}>Borrar del carrito </Button>}
                     </Card.Body>
                 </Card>
