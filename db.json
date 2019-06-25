@@ -68,49 +68,48 @@
       "name": "Ficus",
       "description": "This is item One",
       "costo": "3",
-      "imagen": "../Gallery/Planta2.jpg"
+      "imagen": "../Gallery/Planta2.jpg",
+      "quantity":""
     },
     {
       "id": 2,
       "name": "Oregano",
       "description": "This is item two",
       "costo": "3",
-      "imagen": "../Gallery/Planta3.jpg"
+      "imagen": "../Gallery/Planta3.jpg",
+      "quantity":""
     },
     {
       "id": 3,
       "name": "Pata de elefante",
       "description": "This is item 4",
       "costo": "5",
-      "imagen": "../Gallery/Planta1.jpg"
+      "imagen": "../Gallery/Planta1.jpg",
+      "quantity":""
     },
     {
       "id": 4,
       "name": "Planta de espinaca",
       "description": "This is item 4",
       "costo": "12",
-      "imagen": "../Gallery/Planta4.jpg"
+      "imagen": "../Gallery/Planta4.jpg",
+      "quantity":""
     },
     {
       "id": 5,
       "name": "Planta de tomate",
       "description": "This is item 5",
       "costo": "12",
-      "imagen": "../Gallery/Planta5.jpg"
+      "imagen": "../Gallery/Planta5.jpg",
+      "quantity":""
     },
     {
       "id": 6,
       "name": "Planta de espinaca",
       "description": "This is item 6",
       "costo": "12",
-      "imagen": "../Gallery/Planta6.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Planta de espinaca",
-      "description": "This is item 6",
-      "costo": "12",
-      "imagen": "../Gallery/Planta6.jpg"
+      "imagen": "../Gallery/Planta6.jpg",
+      "quantity":""
     }
   ],
   "carritodos": [

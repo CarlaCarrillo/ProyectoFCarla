@@ -21,6 +21,7 @@ class Item extends Component {
     }
 
     this.increaseClick = this.increaseClick.bind(this);
+    this.decreaseClick = this.decreaseClick.bind(this);
     this.editItem = this.editItem.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.removeItem = this.removeItem.bind(this);
@@ -28,6 +29,10 @@ class Item extends Component {
 
   increaseClick() {
     this.setState({clicked: this.state.clicked + 1});
+    
+  }
+ decreaseClick() {
+    this.setState({clicked: this.state.clicked - 1});
     
   }
 
@@ -64,7 +69,7 @@ class Item extends Component {
         <Button  id='botonCantidad' variant="dark" onClick={this.increaseClick}>Cantidad</Button>
         = {this.state.clicked}
         </p><p/>
-  
+        <Button  id='botonCantidad' variant="dark" onClick={this.decreaseClick}>Restar</Button> 
         <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Cancelar</Button>
         </Card.Body>
         </Card>
@@ -98,7 +103,6 @@ export default Item;
   </tr>
   <Button variant="outline-danger" onClick={this.removeItem}>Remove</Button>
 </Card.Body>
-
 </Card>
 </Container>
 </Col> 
