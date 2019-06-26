@@ -39,6 +39,8 @@ class Item extends Component {
     this.setState({clicked: this.state.clicked - 1});
   }
 
+  
+
   editItem() {
     this.setState({editing: true});
   }
@@ -73,10 +75,9 @@ class Item extends Component {
         <Button  id='botonCantidadmas' variant="dark" onClick={this.decreaseClick}>-</Button> 
         {this.state.clicked}
         <Button  id='botonCantidadmenos' variant="dark" onClick={this.increaseClick}>+</Button>
-       
         </p><p/>
         
-        <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Cancelar</Button>
+        <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Quitar</Button>
         </Card.Body>
         </Card>
         </Container>

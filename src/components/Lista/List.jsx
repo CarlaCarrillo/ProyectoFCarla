@@ -4,7 +4,7 @@ import Itemcart from './Item/Item';
 import Col from 'react-bootstrap/Col';
 
 import Button from 'react-bootstrap/Button';
-import Suma from './Suma/Suma';
+import PagoTotal from './PagoTotal/PagoTotal';
 
 class List extends Component {
     constructor(props) {
@@ -14,8 +14,6 @@ class List extends Component {
             
         }
         this.updateList = this.updateList.bind(this);
-        
-       
         this.closeModal = this.closeModal.bind(this);
         }
 
@@ -27,8 +25,6 @@ class List extends Component {
        getData('carrito').then((carrito) => this.setState({carrito}));
    }
   
-    
-
     closeModal() {
         this.setState({creating:false});
         this.updateList();
@@ -52,7 +48,7 @@ class List extends Component {
                         Carrito de compras: ¡Bienvenido!
                     </h1><p/>
                 <row>
-                    <Suma/>{this.renderCarrito()}
+                    <PagoTotal/>{this.renderCarrito()}
                 </row>
                 
             </div>

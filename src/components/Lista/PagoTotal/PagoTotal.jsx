@@ -13,7 +13,7 @@ import Table from 'react-bootstrap/Table';
 
 import '../List.css';
 
-class Order extends Component {
+class PagoTotal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -49,7 +49,7 @@ class Order extends Component {
             <tbody >
                 <tr>
                 <td></td>
-                <td>$ .00</td>
+                <td>${this.sumTotal} .00</td>
                 </tr>
             </tbody>
         </Table>
@@ -57,5 +57,5 @@ class Order extends Component {
     )
   }
 }
-export default Order;
+export default PagoTotal;
 
