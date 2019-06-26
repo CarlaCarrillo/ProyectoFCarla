@@ -10,13 +10,17 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 
+
 import '../List.css';
 
 class Item extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      carrito: [],
       clicked: 0,
+      total: 0,
+      sum: 0,
       editing: false,
     }
 
@@ -29,11 +33,10 @@ class Item extends Component {
 
   increaseClick() {
     this.setState({clicked: this.state.clicked + 1});
-    
   }
- decreaseClick() {
+
+  decreaseClick() {
     this.setState({clicked: this.state.clicked - 1});
-    
   }
 
   editItem() {
@@ -50,9 +53,9 @@ class Item extends Component {
   }
 
   render() {
-    const {id, name, description, costo,imagen} = this.props;
+    const {id, name, description, costo,imagen,quantity} = this.props;
     return (
-      
+       
       <Row id='cartas'>
         <Col sm={4} md={4}>
         <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>     
@@ -62,49 +65,26 @@ class Item extends Component {
         <Card.Title><h4>{name}</h4></Card.Title>
         <Card.Text>
           <h6>{description}</h6>
-          <h2>$ {costo} .00</h2>  
+          <h2>$ {costo} .00</h2> 
+          <h2> {quantity} </h2>   
         </Card.Text>
   
-        <p className='botonCantidad' onClick={this.increaseClick}>
-        <Button  id='botonCantidad' variant="dark" onClick={this.increaseClick}>Cantidad</Button>
-        = {this.state.clicked}
+        <p className='botonCantidad' >
+        <Button  id='botonCantidadmas' variant="dark" onClick={this.decreaseClick}>-</Button> 
+        {this.state.clicked}
+        <Button  id='botonCantidadmenos' variant="dark" onClick={this.increaseClick}>+</Button>
+       
         </p><p/>
-        <Button  id='botonCantidad' variant="dark" onClick={this.decreaseClick}>Restar</Button> 
+        
         <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Cancelar</Button>
         </Card.Body>
         </Card>
         </Container>
         </Col> 
         </Row>
+        
+        
     );
   }
 }
 export default Item;
-
-//<Button variant="outline-danger" onClick={this.removeItem}>Remove</Button>
-/*
-<Row id='cartas'>
-<Col sm={4} md={4}>
-<Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>     
-<Card id="carta" style={{ width: '14rem' }}>
-<Card.Img variant="top" src={imagen} alt="242x200" />
-<Card.Body>
-  <Card.Title><h5>{name}</h5></Card.Title>
-  <Card.Text>
-    <h5>{description}</h5>
-    <h2>$ {costo}</h2>  
-    <tr onClick={this.increaseClick}>
-      <td>Catidad {this.props.id === this.props.lastClicked && 'Last Clicked'}</td>
-    </tr>      
-  </Card.Text>
-  <tr onClick={this.increaseClick}>
-  <td>Cantidad = {this.state.clicked}</td>
-  <Button variant="outline-danger" onClick={this.increaseClick}>Cantidad</Button>
-  </tr>
-  <Button variant="outline-danger" onClick={this.removeItem}>Remove</Button>
-</Card.Body>
-</Card>
-</Container>
-</Col> 
-</Row>
-*/

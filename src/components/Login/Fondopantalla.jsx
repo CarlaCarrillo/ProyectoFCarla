@@ -14,7 +14,7 @@ class Fondopantalla extends Component {
         </div>
         <div id="centrado" className="texto encima">
           <Container id="titulo">
-          <h8 id="Plantae">Plantae</h8>
+          <h8 id="Plantae">Plantae</h8  >
           </Container>
           <Container id="contenido">
           <h7>Para los amantes de las plantas, aquí encontrarás 

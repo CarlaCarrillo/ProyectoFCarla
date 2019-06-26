@@ -4,6 +4,7 @@ import Itemcart from './Item/Item';
 import Col from 'react-bootstrap/Col';
 
 import Button from 'react-bootstrap/Button';
+import Suma from './Suma/Suma';
 
 class List extends Component {
     constructor(props) {
@@ -51,8 +52,9 @@ class List extends Component {
                         Carrito de compras: ¡Bienvenido!
                     </h1><p/>
                 <row>
-                    {this.renderCarrito()}
+                    <Suma/>{this.renderCarrito()}
                 </row>
+                
             </div>
             
             </>

@@ -50,14 +50,25 @@ p {
     
 }
 
-#botonCantidad {
+#botonCantidadmas {
         background-color: OLIVEDRAB;
         border:OLIVEDRAB;
         margin-right: 13%;
         margin-top: 3%;
     }
 
-#botonCantidad:hover {
+#botonCantidadmas:hover {
+        color:black;
+    }
+
+#botonCantidadmenos {
+        background-color: OLIVEDRAB;
+        border:OLIVEDRAB;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+
+#botonCantidadmenos:hover {
         color:black;
     }
 
@@ -68,4 +79,11 @@ p {
 }
 #botonRemove:hover {
     color:SLATEGRAY;
+}
+/*Estilo cajita de pago*/
+#cajitaPago {
+    text-align: center;
+    width: 30%;
+    position: relative;
+   
 }
