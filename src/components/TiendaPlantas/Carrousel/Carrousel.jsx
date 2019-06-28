@@ -16,7 +16,7 @@ const Carrousel = () => (
        
         <Row className="justify-content-md-center" >
             <Col xs lg="2">
-            1 of 3
+            
             </Col>
 
             <Col md="auto">
@@ -31,7 +31,7 @@ const Carrousel = () => (
                     <h3></h3>
                     <p></p>
                     <Container id="titulo">
-                    <h1>Encuentra algo especial para regalar</h1>
+                    <h1 className="basecarrousel">Encuentra algo especial para regalar</h1>
                     </Container>
                     <p></p>
                     </Carousel.Caption>
@@ -48,7 +48,7 @@ const Carrousel = () => (
                     <h3></h3>
                     <p></p>
                     <Container id="titulo">
-                    <h1>Encuentra todo para crear tu huerto urbano</h1>
+                    <h1 className="basecarrousel">Encuentra todo para crear tu huerto urbano</h1>
                     </Container>
                     <p></p>
                     </Carousel.Caption>
@@ -65,7 +65,7 @@ const Carrousel = () => (
                     <h3></h3>
                     <p></p>
                     <Container id="titulo">
-                    <h1>Si ya lo tienes, encontrarás todo para su mantenimiento.</h1>
+                    <h1 className="basecarrousel">Si ya lo tienes, encontrarás todo para su mantenimiento.</h1>
                     </Container>
                     <p></p>
                     </Carousel.Caption>
@@ -74,7 +74,7 @@ const Carrousel = () => (
             </Col>
            
             <Col xs lg="2">
-                3 of 3
+                
             </Col>
                 
         </Row>

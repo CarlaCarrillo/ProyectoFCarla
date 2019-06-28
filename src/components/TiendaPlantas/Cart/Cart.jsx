@@ -40,6 +40,7 @@ class Cart extends React.Component {
             }
         }.bind(this))
     }
+    
     limpiarCarrito = (id) => {
         console.log(this.state);
         const newState = this.state;

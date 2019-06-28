@@ -10,6 +10,7 @@ import Lista from './Lista/List';
 
 import UserRegister from './UserRegister/UserRegister';
 import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
+import Articulo from './Articulo/Articulo';
 //import ShopCar from './ShopCar/ShopCar';
 
 
@@ -19,8 +20,9 @@ const App = () => (
     <Route exact path="/" component={Login} />
     <Route exact path="/user" component={UserRegister} />
     <Route path="/plantas" component={TiendaPlantas} />
-    
     <Route path="/carrito" component={Lista} />
+    <Route path="/mesas" component={Articulo} />
+
    
   </BrowserRouter>
 )

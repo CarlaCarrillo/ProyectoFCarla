@@ -15,7 +15,7 @@ class Hamburguer extends React.Component {
         <Link to="/" ><a id="home" className="menu-item">HOME</a></Link><p/>
         <a id="principal" className="menu-item">TIENDA</a>
         <Link to="/plantas"> <a id="submenu" className="menu-item">Plantas</a> </Link>
-        <a id="submenu" className="menu-item" href="/">Mesas de cultivo</a>
+        <a id="submenu" className="menu-item" href="/mesas">Mesas de cultivo</a>
         <a id="submenu" className="menu-item" href="/">Semillas</a>
         <a id="submenu" className="menu-item" href="/">Herramientas</a><p/>
         <a id="principal" className="menu-item">REGALOS</a>

@@ -1,0 +1,22 @@
+.TituloMesas{
+    text-align: center;
+    margin-left: 13%;
+    color: white;
+    font-size: 200%;
+}
+
+
+.imagenPortada {
+    width: 60%;
+    margin-left: 19%;
+    padding: 0%;
+}
+
+.subtituloMesa {
+    color: white;
+    background-color:rgba(235, 8, 76, 0.5);
+}
+
+.parrafoMesas {
+    text-align: justify;
+}

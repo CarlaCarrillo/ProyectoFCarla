@@ -87,3 +87,8 @@ p {
     position: relative;
    
 }
+
+/*Estilo de campo de cantidad*/
+.Cantidad {
+    background-color: DEEPPINK;
+}

@@ -66,7 +66,7 @@ class Item extends Component {
               <Card.Text>
                 <h6>{description}</h6>
                 <h2>$ {costo * quantity} .00</h2>
-                <h2> {quantity} </h2>
+                <h2 className="Cantidad"> Cantidad = {quantity} </h2>
               </Card.Text>
 
               <p className='botonCantidad' >
@@ -75,7 +75,7 @@ class Item extends Component {
                 <Button id='botonCantidadmenos' variant="dark" onClick={this.increaseClick}>+</Button>
               </p><p />
 
-              <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Quitar</Button>
+              <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Eliminar</Button>
             </Card.Body>
           </Card>
         </Container>
