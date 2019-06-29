@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 //Action
-import Cart from './Cart/Cart';
+import Cart from './Cart/Cart_Plantas';
 import Instructions from './Instructions/Instructions';
 import Carrousel from './Carrousel/Carrousel'
 
@@ -36,7 +36,7 @@ class TiendaPlantas extends React.Component {
         return (
             <div>
                 <Carrousel />
-                <Container>
+                <Container className="ContenedorTarjetas">
                     <Row>
                         {this.state.plantas.map(
                             planta => <Cart plantas={planta} guardada={this.plantaAgregada} isViewingCart={false} />
