@@ -12,6 +12,10 @@ import TiendaPlantas from './TiendaPlantas/TiendaPlantas';
 import Articulo from './Articulo/Articulo';
 import TiendaSemillas from './TiendaSemillas/TiendaSemillas';
 import TiendaHerram from './TiendaHerram/TiendaHerram';
+import TiendaKit from './TiendaKit/TiendaKit';
+import TiendaTerrarios from './TiendaTerrarios/TiendaTerrarios';
+import TiendaMacetas from './TiendaMacetas/TiendaMacetas';
+import TiendaArreglos from './TiendaArreglos/TiendaArreglos';
 //import ShopCar from './ShopCar/ShopCar';
 
 
@@ -26,6 +30,10 @@ const App = () => (
     <Route path="/mesas" component={MesasCultivo} />
     <Route path="/semillas" component={TiendaSemillas} />
     <Route path="/herramientas" component={TiendaHerram} />
+    <Route path="/kit" component={TiendaKit} />
+    <Route path="/terrarios" component={TiendaTerrarios} />
+    <Route path="/macetas" component={TiendaMacetas} />
+    <Route path="/arreglos" component={TiendaArreglos} />
 
    
   </BrowserRouter>

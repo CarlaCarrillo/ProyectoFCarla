@@ -18,11 +18,12 @@ class Hamburguer extends React.Component {
         <Link to="/plantas"> <a id="submenu" className="menu-item">Plantas</a> </Link>
         <a id="submenu" className="menu-item" href="/mesas">Mesas de cultivo</a>
         <a id="submenu" className="menu-item" href="/semillas">Semillas</a>
+        <a id="submenu" className="menu-item" href="/macetas">Macetas</a>
         <a id="submenu" className="menu-item" href="/herramientas">Herramientas</a><p/>
         <a id="principal" className="menu-item">REGALOS</a>
-        <Link to="/regalos"> <a id="submenu" className="menu-item">Kit mi primer huerto</a></Link>
-        <a id="submenu" className="menu-item" href="/">Terrarios</a>
-        <a id="submenu" className="menu-item" href="/">Arreglos Macetas</a><p/>
+        <a id="submenu" className="menu-item" href="/kit">Kit Mi Primer Huerto</a>
+        <a id="submenu" className="menu-item" href="/terrarios">Terrarios</a>
+        <a id="submenu" className="menu-item" href="/arreglos">Arreglos Macetas</a><p/>
         <a id="principal" className="menu-item" href="/sucursales">SUCURSALES</a>
 
         
