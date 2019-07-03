@@ -25,7 +25,7 @@ const Articulo = () => (
       </Col>
       
       <Col xs lg="2">
-        3 of 3
+       
       </Col>
     </Row>
     <Row> 

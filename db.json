@@ -469,7 +469,7 @@
       "description": "Planta de sombra ideal para interiores. Compra protegida",
       "costo": "45",
       "imagen": "../Gallery/Planta2.jpg",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": 4,
@@ -496,20 +496,20 @@
       "quantity": 1
     },
     {
-      "id": 503,
-      "name": "Semillas RHSJ678",
-      "description": "Semillas de albhaca. Compra protegida",
-      "costo": "30",
-      "imagen": "../Gallery/Semillas3.jpg",
-      "quantity": 1
-    },
-    {
       "id": 505,
       "name": "Semillas SKJDY0354",
       "description": "Semillas de cactus. Compra protegida",
       "costo": "150",
       "imagen": "../Gallery/Semillas5.jpg",
       "quantity": 1
+    },
+    {
+      "id": 503,
+      "name": "Semillas RHSJ678",
+      "description": "Semillas de albhaca. Compra protegida",
+      "costo": "30",
+      "imagen": "../Gallery/Semillas3.jpg",
+      "quantity": 2
     },
     {
       "id": 401,
@@ -525,7 +525,7 @@
       "description": "Kit 5 Macetas geométricas de cemento. Compra protegida",
       "costo": "500",
       "imagen": "../Gallery/Maceta2.jpg",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": 203,
@@ -541,7 +541,7 @@
       "description": "Ideal para comenzar tu huerto. Compra protegida",
       "costo": "345",
       "imagen": "../Gallery/Kit2.jpg",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": 304,
@@ -605,7 +605,7 @@
       "description": "Bonita maceta con planta. Set 3 macetas. Compra protegida",
       "costo": "300",
       "imagen": "../Gallery/Arreglo3.jpg",
-      "quantity": 2
+      "quantity": 1
     },
     {
       "id": 704,
@@ -621,15 +621,7 @@
       "description": "Bonita maceta con planta. Set 2 macetas. Compra protegida",
       "costo": "300",
       "imagen": "../Gallery/Arreglo5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 706,
-      "name": "Arreglo HJK3789",
-      "description": "Bonita maceta con planta. Set 3 macetas. Compra protegida",
-      "costo": "500",
-      "imagen": "../Gallery/Arreglo6.jpg",
-      "quantity": 1
+      "quantity": 2
     }
   ]
 }

@@ -27,7 +27,7 @@ const Sucursales = () => (
         
         
         </Col>
-      <Col xs={6}><Image className="imagenPortada" src={Huertos}/></Col>
+      <Col xs={6}><Image className="imagenPortada2" src={Huertos}/></Col>
       </Row>
     </Container>
    
