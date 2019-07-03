@@ -35,6 +35,7 @@ class TiendaTerrarios extends React.Component {
         console.log(this.state.terrarios);
         return (
             <div>
+                <h1 className="tituloTerrarios">REGALA UN BONITO TERRARIO</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

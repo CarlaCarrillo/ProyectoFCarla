@@ -35,6 +35,7 @@ class TiendaArreglos extends React.Component {
         console.log(this.state.arreglos);
         return (
             <div>
+                <h1 className="tituloArreglos">REGALA UN ARREGLO FLORAL EN UNA NACETA DE ESTILO ÚNICO</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

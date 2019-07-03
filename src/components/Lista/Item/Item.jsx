@@ -68,13 +68,6 @@ class Item extends Component {
                 <h2>$ {costo * quantity} .00</h2>
                 <h2 className="Cantidad"> Cantidad = {quantity} </h2>
               </Card.Text>
-
-              <p className='botonCantidad' >
-                <Button id='botonCantidadmas' variant="dark" onClick={this.decreaseClick}>-</Button>
-                {this.state.clicked}
-                <Button id='botonCantidadmenos' variant="dark" onClick={this.increaseClick}>+</Button>
-              </p><p />
-
               <Button id='botonRemove' variant="dark" onClick={this.removeItem}>Eliminar</Button>
             </Card.Body>
           </Card>
@@ -84,3 +77,11 @@ class Item extends Component {
   }
 }
 export default Item;
+
+
+/*<p className='botonCantidad' >
+               <Button id='botonCantidadmas' variant="dark" onClick={this.decreaseClick}>-</Button>
+                {this.state.clicked}
+                <Button id='botonCantidadmenos' variant="dark" onClick={this.increaseClick}>+</Button>
+              </p><p />
+*/

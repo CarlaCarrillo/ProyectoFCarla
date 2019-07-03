@@ -35,6 +35,7 @@ class TiendaHerramientas extends React.Component {
         console.log(this.state.herramientas);
         return (
             <div>
+                <h1 className="tituloHerram">HERRAMIENTAS PARA EL CUIDADO DE TU HUERTO</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

@@ -16,7 +16,9 @@ import TiendaKit from './TiendaKit/TiendaKit';
 import TiendaTerrarios from './TiendaTerrarios/TiendaTerrarios';
 import TiendaMacetas from './TiendaMacetas/TiendaMacetas';
 import TiendaArreglos from './TiendaArreglos/TiendaArreglos';
-//import ShopCar from './ShopCar/ShopCar';
+import PaginaPrincipal from './PaginaPrincipal/PaginaPrincipal';
+import Sucursales from './Sucursales/Sucursales';
+
 
 
 const App = () => (
@@ -34,6 +36,8 @@ const App = () => (
     <Route path="/terrarios" component={TiendaTerrarios} />
     <Route path="/macetas" component={TiendaMacetas} />
     <Route path="/arreglos" component={TiendaArreglos} />
+    <Route path="/principal" component={PaginaPrincipal} />
+    <Route path="/sucursales" component={Sucursales} />
 
    
   </BrowserRouter>

@@ -472,75 +472,11 @@
       "quantity": 1
     },
     {
-      "id": 2,
-      "name": "Oregano",
-      "description": "Planta de sombra ideal para interiores. Compra protegida",
-      "costo": "50",
-      "imagen": "../Gallery/Planta3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 3,
-      "name": "Pata de elefante",
-      "description": "Planta de sombra ideal para interiores. Compra protegida",
-      "costo": "120",
-      "imagen": "../Gallery/Planta1.jpg",
-      "quantity": 1
-    },
-    {
       "id": 4,
       "name": "Planta de espinaca",
       "description": "Planta de sombra ideal para interiores. Compra protegida",
       "costo": "34",
       "imagen": "../Gallery/Planta4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 5,
-      "name": "Planta de tomate",
-      "description": "Planta de sombra ideal para interiores. Compra protegida",
-      "costo": "40",
-      "imagen": "../Gallery/Planta5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 6,
-      "name": "Planta de flores",
-      "description": "Planta de sombra ideal para interiores. Compra protegida",
-      "costo": "90",
-      "imagen": "../Gallery/Planta6.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 101,
-      "name": "Mesa de cultivo RSF789",
-      "description": "Mesa de cultivo con patas, madera de pino. Compra protegida",
-      "costo": "562",
-      "imagen": "../Gallery/Mesa1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 102,
-      "name": "Mesa de cultivo RSH345",
-      "description": "Mesa de cultivo metálica con patas. Compra protegida",
-      "costo": "845",
-      "imagen": "../Gallery/Mesa2.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 103,
-      "name": "Mesa de cultivo RHSJ678",
-      "description": "Mesa de cultivo con patas.Material: madera de pino. Compra protegida",
-      "costo": "1256",
-      "imagen": "../Gallery/Mesa3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 104,
-      "name": "Mesa de cultivo FHDJK789",
-      "description": "Mesa de cultivo tipo invernadero. Materiales: pino, plástico. Compra protegida",
-      "costo": "1300",
-      "imagen": "../Gallery/Mesa4.jpg",
       "quantity": 1
     },
     {
@@ -560,22 +496,6 @@
       "quantity": 1
     },
     {
-      "id": 501,
-      "name": "Semillas RSF789",
-      "description": "Kit de 5 tipos de semillas. Compra protegida",
-      "costo": "50",
-      "imagen": "../Gallery/Semillas1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 502,
-      "name": "Semillas RSH345",
-      "description": "Kit de 10 sobres. Compra protegida",
-      "costo": "72",
-      "imagen": "../Gallery/Semillas2.jpg",
-      "quantity": 1
-    },
-    {
       "id": 503,
       "name": "Semillas RHSJ678",
       "description": "Semillas de albhaca. Compra protegida",
@@ -584,27 +504,11 @@
       "quantity": 1
     },
     {
-      "id": 504,
-      "name": "Semillas FHDJK789",
-      "description": "Kit de 3 tipos de semillas. Compra protegida",
-      "costo": "90",
-      "imagen": "../Gallery/Semillas4.jpg",
-      "quantity": 1
-    },
-    {
       "id": 505,
       "name": "Semillas SKJDY0354",
       "description": "Semillas de cactus. Compra protegida",
       "costo": "150",
       "imagen": "../Gallery/Semillas5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 506,
-      "name": "Semillas HDJK2738",
-      "description": "Semillas de rábano. Compra protegida",
-      "costo": "25",
-      "imagen": "../Gallery/Semillas6.jpg",
       "quantity": 1
     },
     {
@@ -624,91 +528,11 @@
       "quantity": 1
     },
     {
-      "id": 403,
-      "name": "Maceta MOD896",
-      "description": "Maceta grande tipo huacal. Compra protegida",
-      "costo": "300",
-      "imagen": "../Gallery/Maceta3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 404,
-      "name": "Maceta MOD899",
-      "description": "Maceta tipo cajón de madera. Compra protegida",
-      "costo": "345",
-      "imagen": "../Gallery/Maceta4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 405,
-      "name": "Maceta MOD845",
-      "description": "Kit de 3 macetas de barror. Compra protegida",
-      "costo": "200",
-      "imagen": "../Gallery/Maceta5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 406,
-      "name": "Maceta MOD845",
-      "description": "Maceta de madera con patas. Compra protegida",
-      "costo": "350",
-      "imagen": "../Gallery/Maceta6.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 201,
-      "name": "Herramientas M7874GH",
-      "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
-      "costo": "200",
-      "imagen": "../Gallery/Her1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 202,
-      "name": "Herramientas HHK789",
-      "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
-      "costo": "160",
-      "imagen": "../Gallery/Her2.jpg",
-      "quantity": 1
-    },
-    {
       "id": 203,
       "name": "Herramientas NMVCG345",
       "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
       "costo": "123",
       "imagen": "../Gallery/Her3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 204,
-      "name": "Herramientas HJL3489",
-      "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
-      "costo": "256",
-      "imagen": "../Gallery/Her4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 205,
-      "name": "Herramientas NMH678",
-      "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
-      "costo": "134",
-      "imagen": "../Gallery/Her5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 206,
-      "name": "Herramientas NMJH4678",
-      "description": "Kit de herramientas, idel para tu huerto urbano. Compra protegida",
-      "costo": "234",
-      "imagen": "../Gallery/Her6.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 301,
-      "name": "Kit Huerto Urbano BNMH45567",
-      "description": "Ideal para comenzar tu huerto. Compra protegida",
-      "costo": "500",
-      "imagen": "../Gallery/Kit1.jpg",
       "quantity": 1
     },
     {
@@ -720,27 +544,11 @@
       "quantity": 1
     },
     {
-      "id": 303,
-      "name": "Kit Huerto Urbano BJHG567",
-      "description": "Ideal para comenzar tu huerto. Compra protegida",
-      "costo": "400",
-      "imagen": "../Gallery/Kit3.jpg",
-      "quantity": 1
-    },
-    {
       "id": 304,
       "name": "Kit Huerto Urbano NBV345",
       "description": "Ideal para comenzar tu huerto. Compra protegida",
       "costo": "432",
       "imagen": "../Gallery/Kit4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 305,
-      "name": "Kit Huerto Urbano BNM467",
-      "description": "Ideal para comenzar tu huerto. Compra protegida",
-      "costo": "567",
-      "imagen": "../Gallery/Kit5.jpg",
       "quantity": 1
     },
     {
@@ -765,30 +573,6 @@
       "description": "Terrario contenedor alto. Compra protegida",
       "costo": "300",
       "imagen": "../Gallery/Terrario2.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 603,
-      "name": "Terrario GFD567",
-      "description": "Terrario contendor cilíndrico. Compra protegida",
-      "costo": "230",
-      "imagen": "../Gallery/Terrario3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 604,
-      "name": "Terrario HJK345",
-      "description": "Juego 2 terrarios geométricos. Compra protegida",
-      "costo": "365",
-      "imagen": "../Gallery/Terrario4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 605,
-      "name": "Terrario JKL789",
-      "description": "Terrario sobre corteza de madera. Compra protegida",
-      "costo": "356",
-      "imagen": "../Gallery/Terrario5.jpg",
       "quantity": 1
     },
     {

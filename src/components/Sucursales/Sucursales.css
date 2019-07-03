@@ -1,0 +1,30 @@
+.TituloSucursales{
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 2%;
+    color: white;
+    font-size: 200%;
+}
+
+.Parrafo {
+    margin-top: 11%;
+    font-size: 110%;
+    color: white;
+}
+
+
+.imagenPortada {
+    width: 120%;
+    margin-top: 6%;
+    margin-left: -1%;
+    padding: 0%;
+}
+
+.subtituloMesa {
+    color: white;
+    background-color:rgba(235, 8, 76, 0.5);
+}
+
+.parrafoMesas {
+    text-align: justify;
+}

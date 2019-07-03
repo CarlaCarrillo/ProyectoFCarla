@@ -35,6 +35,7 @@ class TiendaMacetas extends React.Component {
         console.log(this.state.macetas);
         return (
             <div>
+                <h1 className="tituloMacetas">MACETAS IDEALES PARA TUS PLANTAS</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

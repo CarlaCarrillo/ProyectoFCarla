@@ -35,6 +35,7 @@ class TiendaKit extends React.Component {
         console.log(this.state.kits);
         return (
             <div>
+                <h1 className="tituloKit">¿QUIERES REGALAR EL PRIMER HUERTO?</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

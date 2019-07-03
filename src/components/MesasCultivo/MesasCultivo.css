@@ -7,6 +7,13 @@
     text-align: center; 
     margin-top: 1%;
 }
+/*Estilo de titulo de página*/
+.tituloMesas {
+    color: white;
+    font-size: 200%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+}
 /**Letra de titulos de carrusel**/
 #titulo {
     color: white;

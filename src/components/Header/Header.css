@@ -7,20 +7,15 @@
     width: 100%;
 }
 
-
-
 #hamburguer {
     margin-left: 1%;
-    
 }
 
 h1 {
-    
         margin-top: 0.5%;
         font-size: 150%;
         color: aliceblue;
         margin-right: 50%;
-    
 }
 
 h2 {
@@ -87,9 +82,11 @@ h2 {
     margin-right:20%; 
 }
 /**contenedor de barrita de busqueda**/
+/*Letras de titulo platae*/
 h1 {  
     margin-top: 1%;
-    font-size: 150%;
+    font-size: 200%;
+    font-family: 'Annie Use Your Telescope', cursive;
     color: aliceblue;
     margin-right: 0%;
 }

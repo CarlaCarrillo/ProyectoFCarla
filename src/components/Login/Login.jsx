@@ -67,7 +67,7 @@ class Login extends Component {
   render() {
     let alert = null;
     if (this.state.loggedIn) {
-      return (<Redirect to="/list" />);
+      return (<Redirect to="/principal" />);
     }
     if (this.state.loginError) {
       alert = (<Alert variant="danger">Check password or username!</Alert>);

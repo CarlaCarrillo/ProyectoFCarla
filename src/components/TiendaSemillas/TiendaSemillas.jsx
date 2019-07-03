@@ -35,6 +35,7 @@ class TiendaSemillas extends React.Component {
         console.log(this.state.semillas);
         return (
             <div>
+                <h1 className="tituloSemillas">ENCUENTRA VARIEDAD DE SEMILLAS</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

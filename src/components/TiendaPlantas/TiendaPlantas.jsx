@@ -35,6 +35,7 @@ class TiendaPlantas extends React.Component {
         console.log(this.state.plantas);
         return (
             <div>
+                <h1 className="tituloPlantas">ENCUENTRA UNA GRAN VARIEDAD DE PLANTAS</h1>
                 <Carrousel />
                 <Container className="ContenedorTarjetas">
                     <Row>

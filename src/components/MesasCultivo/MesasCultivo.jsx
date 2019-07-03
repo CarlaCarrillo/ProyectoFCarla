@@ -35,6 +35,7 @@ class MesasCultivo extends React.Component {
         console.log(this.state.mesas);
         return (
             <div>
+                <h1 className="tituloMesas">ENCUENTRA UNA GRAN VARIEDAD DE MESAS DE CULTIVO</h1>
                 <Carrousel />
                 <Container>
                     <Row>

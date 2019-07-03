@@ -1,0 +1,88 @@
+.Plantae2 {
+    margin-left: 5px;
+    font-size: 120%;
+    font-family: 'Bad Script';
+    margin-top: 10%;
+    }
+
+
+h3 {
+    font-size: 102%;
+    color: rgb(33, 138, 1);
+}
+
+h2 {
+    color: white;
+    margin-left: 2%;
+}
+
+/**Formato a texto de imagen de fondo**/
+#titulo2 {
+    color: white;
+    font-size: 280%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin-left: -13%;
+    margin-top: -20%;
+    background-color:rgba(0, 0, 0, 0.4);
+
+    
+    }
+
+
+#contenido2 {
+    margin-top: 8%;
+    margin-left: -37%;
+    width: 203%;
+    font-size: 30px;
+    font-family: 'Bad Script';
+    color: white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+ 
+    
+}
+
+.imgfondo2 {
+    width: 1500px;
+    height: 700px;
+    
+    margin-left: 0%;  
+}
+.modal-content2 {
+    width: 484px;
+    height: 515px;
+    padding: 20px;
+    margin: 10px 0 20px -7px !important;
+    background: linear-gradient(to left, #000000, #434343);
+}
+
+
+/**formato a texto de centro de pantalla**/
+#contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+ 
+#texto-encima2{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+#centrado2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+}
+/*Estilo contenedor de titulo de pagina: Plantae*/
+#titulo.container2 {
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 50%;
+
+}
+
+
