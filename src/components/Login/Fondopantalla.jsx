@@ -20,7 +20,9 @@ class Fondopantalla extends Component {
           <h7>Para los amantes de las plantas, aquí encontrarás 
           macetas con
            diseños únicos para regalar a esas personas especiales en tu vida.
-          También podrás encontrar todo lo necesario para comenzar tu propio huerto urbano.</h7>
+          También podrás encontrar todo lo necesario para comenzar tu propio huerto urbano.<p/>
+          Página elaborada por Carla Ivonne Carrillo Morales<p/>
+          Contacto: ccarrillo1616@gmail.com</h7>
           </Container>
         </div>
       </div>

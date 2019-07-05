@@ -56,6 +56,15 @@
     width: 100%;
     text-align: center;
     padding: 0.5%;
+    margin-top: 5%;
+}
+/**estilo a tamaño de carts**/
+#carta.card {
+    height: 96%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    box-shadow: 16px 13px 17px rgb(27, 29, 29);
 }
 
 h6 {

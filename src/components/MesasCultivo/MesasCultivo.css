@@ -53,12 +53,20 @@
 #cajaiconos {
     scroll-margin-top: 0%;
     margin-left: 0%;
-    background: linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #000000, #434343);
     width: 100%;
     text-align: center;
     padding: 0.5%;
+    margin-top: 5%;
 }
-
+/**estilo a tamaño de carts**/
+#carta.card {
+    height: 96%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    box-shadow: 16px 13px 17px rgb(27, 29, 29);
+}
 h6 {
     text-align: center;
 }
@@ -67,12 +75,7 @@ h6 {
 margin-top: 3%;
 }
 
-/**estilo a tamaño de carts**/
-#carta.card {
-    height: 96%;
-    text-align: center;
-    margin-top: 4%;
-}
+
 /**estilo Botón Agregar a Carrito**/
 .botonAgregar {
 color: DARKGREEN;
