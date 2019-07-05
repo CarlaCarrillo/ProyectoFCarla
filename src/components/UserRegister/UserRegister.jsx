@@ -4,6 +4,7 @@ import User from './User/User';
 import CreateRegister from './CreateRegister/CreateRegister'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import './UserRegister.css';
 
 class UserRegister extends Component {
     constructor(props) {

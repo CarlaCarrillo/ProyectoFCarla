@@ -1,44 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "User",
-      "lastname": "One",
-      "email": "userOne@mail.com",
-      "username": "user-one",
-      "password": "password"
-    },
-    {
-      "id": 2,
-      "name": "User",
-      "lastname": "Two",
-      "email": "userTwo@mail.com",
-      "username": "user-two",
-      "password": "password"
-    },
-    {
-      "id": 3,
-      "name": "User",
-      "lastname": "Three",
-      "email": "userThree@mail.com",
-      "username": "user-three",
-      "password": "password"
-    },
-    {
-      "id": 4,
-      "name": "User",
-      "lastname": "Four",
-      "email": "userFour@mail.com",
-      "username": "user-four",
-      "password": "password"
-    },
-    {
-      "name": "User",
-      "lastname": "Five",
-      "email": "userFive@mail.com",
-      "username": "user-five",
+      "name": "Carla",
+      "lastname": "Carrillo",
+      "email": "ccarrillo1616@gmail.com",
+      "username": "Carla",
       "password": "password",
-      "id": 5
+      "id": 1
     }
   ],
   "items": [
@@ -469,7 +437,7 @@
       "description": "Planta de sombra ideal para interiores. Compra protegida",
       "costo": "45",
       "imagen": "../Gallery/Planta2.jpg",
-      "quantity": 2
+      "quantity": 1
     },
     {
       "id": 4,
@@ -477,14 +445,6 @@
       "description": "Planta de sombra ideal para interiores. Compra protegida",
       "costo": "34",
       "imagen": "../Gallery/Planta4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 105,
-      "name": "Mesa de cultivo SKJDY0354",
-      "description": "Mesa de cultivo metálica.Compatimento inferior. Compra protegida",
-      "costo": "862",
-      "imagen": "../Gallery/Mesa5.jpg",
       "quantity": 1
     },
     {
@@ -501,14 +461,6 @@
       "description": "Semillas de cactus. Compra protegida",
       "costo": "150",
       "imagen": "../Gallery/Semillas5.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 503,
-      "name": "Semillas RHSJ678",
-      "description": "Semillas de albhaca. Compra protegida",
-      "costo": "30",
-      "imagen": "../Gallery/Semillas3.jpg",
       "quantity": 2
     },
     {
@@ -525,7 +477,7 @@
       "description": "Kit 5 Macetas geométricas de cemento. Compra protegida",
       "costo": "500",
       "imagen": "../Gallery/Maceta2.jpg",
-      "quantity": 2
+      "quantity": 1
     },
     {
       "id": 203,
@@ -544,22 +496,6 @@
       "quantity": 2
     },
     {
-      "id": 304,
-      "name": "Kit Huerto Urbano NBV345",
-      "description": "Ideal para comenzar tu huerto. Compra protegida",
-      "costo": "432",
-      "imagen": "../Gallery/Kit4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 306,
-      "name": "Kit Huerto Urbano BNM789",
-      "description": "Ideal para comenzar tu huerto. Compra protegida",
-      "costo": "456",
-      "imagen": "../Gallery/Kit6.jpg",
-      "quantity": 1
-    },
-    {
       "id": 601,
       "name": "Terrario BNH367",
       "description": "Terrario Florilandia de suculentas. Compra protegida",
@@ -574,54 +510,6 @@
       "costo": "300",
       "imagen": "../Gallery/Terrario2.jpg",
       "quantity": 1
-    },
-    {
-      "id": 606,
-      "name": "Terrario HJK3789",
-      "description": "Terrario Maceta cemento. Compra protegida",
-      "costo": "256",
-      "imagen": "../Gallery/Terrario6.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 701,
-      "name": "Arreglo BNH367",
-      "description": "Bonita maceta con planta. Set 2 macetas. Compra protegida",
-      "costo": "300",
-      "imagen": "../Gallery/Arreglo1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 702,
-      "name": "Arreglo NMBb678",
-      "description": "Bonita maceta con planta. Set 5 macetas. Compra protegida",
-      "costo": "500",
-      "imagen": "../Gallery/Arreglo2.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 703,
-      "name": "Arreglo GFD567",
-      "description": "Bonita maceta con planta. Set 3 macetas. Compra protegida",
-      "costo": "300",
-      "imagen": "../Gallery/Arreglo3.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 704,
-      "name": "Arreglo HJK345",
-      "description": "Bonita maceta con planta. Compra protegida",
-      "costo": "150",
-      "imagen": "../Gallery/Arreglo4.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 705,
-      "name": "Arreglo JKL789",
-      "description": "Bonita maceta con planta. Set 2 macetas. Compra protegida",
-      "costo": "300",
-      "imagen": "../Gallery/Arreglo5.jpg",
-      "quantity": 2
     }
   ]
 }

@@ -10,6 +10,7 @@ import Alert from 'react-bootstrap/Alert';
 import Modal from 'react-bootstrap/Modal';
 
 
+
 class RegisterForm extends Component {
     constructor(props) {
         super(props);
@@ -51,7 +52,7 @@ class RegisterForm extends Component {
         const alert = this.state.error && (<Alert variant="danger">Something went wrong</Alert>);
         return (
             
-                    <Form>
+                    <Form className="registro">
                         <Form.Group>
                             <Form.Label>Name</Form.Label>
                             <Form.Control
